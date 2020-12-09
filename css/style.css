@@ -1,0 +1,260 @@
+
+
+.header_mods {
+    background: #cacaca2b;
+    position: fixed;
+    height: 3.5vh;
+    width: 100%;
+    display: block;
+    z-index: 100;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+div .header_mods {
+    margin-bottom: 0vh;
+}
+/* 2nd column below */
+div.logo_column {
+  height: 100px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
+
+}
+
+.logo_font {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.venedor_buttons {
+  margin: 25px 15px 0px 0px;
+  float: right;
+}
+
+.lower_container {
+    margin-top: 0vh;
+}
+
+/* .dividing_space {
+    margin-bottom: 1vh;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    padding: 0px 15px 0px 0px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+
+
+.hero_container {
+  position: relative;
+  height: 80vh;
+  width: auto;
+  background: linear-gradient(#d8dad7, #cacac6);
+  background-size: cover;
+  margin: 0px 0px 35px 0px;
+}
+
+.hero_image {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+img.hero_image {
+  height: 769px;
+  width: 400px;
+}
+
+p.hero_font {
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: #FFFFFF;
+  margin-left: 52px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+}
+
+.hero_border {
+    /* border: 1px solid blue; */
+    background: #13bfcb;
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    width: 260px;
+    position: relative;
+    /* position: absolute; */
+    /* top: 170px; */
+    /* left: 1px; */
+    /* bottom: 1px; */
+    /* right: 1px; */
+    margin-top: 20vh;
+}
+
+
+.hero_border2 {
+  background: #434b4d;
+  /* border: 1px solid blue; */
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  height: 90px;
+  width: 560px;
+}
+
+.hero_font2 {
+  font-family: sans-serif;
+  font-size: 4rem;
+  color: #FFFFFF;
+  position: absolute;
+  top: 1px;
+  left: 50px;
+  bottom: 1px;
+  right: 1px;
+}
+
+
+.hero_sentence {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9vw;
+  margin-top: 3vh;
+}
+
+/* Latest products below */
+
+.latest_container {
+  margin: 30px 0px 0px 0px;
+}
+
+.latest_info {
+  border-left: 6px solid green;
+  height: 58px;
+  position: absolute;
+  left: 3%;
+  margin-left: -3px;
+  top: 16%;
+}
+
+.latest_font {
+  font-size: 4vw;
+  margin: 0px 0px 0px 15px;
+}
+
+.one_line {
+  margin-top: 10px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: visible;
+  white-space: pre;
+  font-size: 22px;
+}
+
+
+
+/* sale items below */
+
+.product_row {
+  margin: 35px 0px 0px 0px;
+}
+
+.product_container {
+  position: relative;
+  height: 700px;
+}
+
+.sale_rectangle  {
+  position: absolute;
+  height: 60px;
+  width: 120px;
+  background: #fe0297;
+  top: 1px;
+  left: 25px;
+  bottom: 1px;
+  right: 1px;
+}
+
+.sale_rectangle, p {
+
+}
+
+div.sale_rectangle p {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 8px 0px 0px 0px;
+}
+
+img.sale_item {
+  height: 280px;
+  width: 360px;
+}
+
+.sale_circle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  top: 25%;
+  left: 52%;
+  bottom: 0%;
+  right: 0%;
+  background: #13bfcb; 
+}
+
+
+div.sale_circle p {
+  margin: 0px 0px 0px 0px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.star_container {
+  height: 20px;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  bottom: 0%;
+  right: 0%;
+}
+
+div.star_container span.fa-star {
+  height: 1px;
+  width: 15px;
+}
+
+.checked {
+  color: orange;
+}
+
+p.item_description {
+  margin: 50% 0% 0px 15%;
+  font-size: 16px;
+}
+
+button {
+  color: #434b4d;
+}
